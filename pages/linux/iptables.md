@@ -2,6 +2,10 @@
 
 > Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 
+- See all active rules:
+
+`sudo iptables -S`
+
 - See chains and rules for specific table:
 
 `sudo iptables -t {{table_name}} -vnL`
